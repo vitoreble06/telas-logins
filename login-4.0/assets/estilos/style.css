@@ -9,14 +9,50 @@
 
 body {
     height: 98vh;
-    background: url(../img/landscape-minecraft-shaders-river-wallpaper.original.jpg) no-repeat fixed;
+    background: url(../img/sunrise-landscape-minimalism-5k-ex-1920x1080.jpg) no-repeat fixed;
     background-size: cover;
     background-position: center center;
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: 'poppins', sans-serif;
 }
 
 .container {
     background-color: #fff;
+    height: 31.25rem;
+}
+
+.titulo-login {
+    text-align: center;
+    margin-top: 1.875rem;
+    margin-bottom: 0.625rem;
+    font-size: 1.6rem;
+}
+
+.paragrafo-login {
+    text-align: center;
+    font-size: 1.12rem;
+    margin-bottom: 15px;
+}
+
+.email {
+    display: flex;
+}
+
+.password {
+    display: flex;
+}
+
+.login-area {
+    display: flex;
+    flex-direction: column;
+}
+
+.remember {
+    display: flex;
+}
+
+.lembrar {
+    margin-right: 20px;
 }
